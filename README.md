@@ -15,5 +15,15 @@ decodeURIComponent(escape(ht.stringify(ft)))
 ```
 를 입력해 원본 메세지를 취득.
 
+# 방법 2
+```js
+const og = decodeURIComponent;
+decodeURIComponent = (arg) => {
+    console.log(og(arg));
+    return og(arg);
+}
+```
+위 코드를 콘솔에 입력해, 더욱 더 쉽게 원본 메세지를 취득
+
 # 영상 튜토리얼
 Soon
