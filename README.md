@@ -1,4 +1,4 @@
-# tree.joody.day
+# tree.joody.day - Patched.
 숨겨진 메세지를 보는 취약점
 
 # 취약점
